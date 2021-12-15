@@ -1,0 +1,47 @@
+.resumePic {
+  background: url(/src/Images/Lryder.jpg) no-repeat;
+  background-position: top;
+  position: fixed;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+.bodyContent {
+  text-align: center;
+  font-stretch: expanded;
+  color: whitesmoke;
+}
+
+.title {
+  font-size: 6vw;
+  font-style: italic;
+  font-family: "cursive";
+  margin: 1px;
+  line-height: 3;
+}
+
+.jobDescription {
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.quote {
+  margin: 11%;
+  font-size: large;
+  letter-spacing: 0.2px;
+}
+
+em {
+  font-size: xx-large;
+  letter-spacing: 0.8px;
+  color: pink;
+}
+
+.icons {
+  letter-spacing: 20px;
+}
+
+.iconButton:hover {
+  background-color: pink;
+}
