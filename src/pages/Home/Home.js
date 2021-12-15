@@ -16,7 +16,7 @@ function Home() {
             <a className="iconButton" href="https://www.facebook.com/lauren.ryder.12/"> <FaFacebook color="black" fontSize="1.5em" ></FaFacebook></a> {" "}
             <a className="iconButton" href="https://www.linkedin.com/in/lauren-ryder-00675617b/"> <FaLinkedin color="black" fontSize="1.5em" ></FaLinkedin></a> {" "}
             <a className="iconButton"  href="https://github.com/LaRyder"> <FaGithub color="black" fontSize="1.5em" ></FaGithub ></a> {" "}
-            <a className="iconButton"  href="ryderl88@gmail.com"> <FaGoogle color="black" fontSize="1.5em" ></FaGoogle></a>
+            <a className="iconButton" href="mailto:ryderl88@gmail.com"><FaGoogle color="black" fontSize="1.5em" ></FaGoogle></a>
             </div>
             </div>
             <div className="quote">
