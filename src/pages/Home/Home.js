@@ -20,7 +20,7 @@ function Home() {
             </div>
             </div>
             <div className="quote">
-            <p><em><b>Ability</b></em>{" "} is what you're capable of doing</p>
+            <p><em><b>Ability</b></em>{" "} is what you are capable of doing</p>
             <p><em><b>Motivation</b></em>{" "}determines what you do</p>
             <p><em><b>Attitude</b></em>{" "}determines how well you do it.</p>
             </div>

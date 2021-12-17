@@ -1,9 +1,9 @@
 .resumePic {
   background: url(/src/Images/Lryder.jpg) no-repeat;
-  background-position: top;
+  background-position: center;
   position: fixed;
   background-size: cover;
-  width: 100vw;
+  width: 98.5vw;
   height: 100vh;
 }
 
@@ -14,22 +14,24 @@
 }
 
 .title {
-  font-size: 6vw;
+  font-size: 5vw;
   font-style: italic;
   font-family: "cursive";
   margin: 1px;
-  line-height: 3;
+  line-height: 0.8;
 }
 
 .jobDescription {
-  font-size: x-large;
+  font-size: 2vw;
   font-weight: bold;
+  margin-top: 9%;
 }
 
 .quote {
   margin: 11%;
-  font-size: large;
+  font-size: 1.7vw;
   letter-spacing: 0.2px;
+  margin-top: 18%;
 }
 
 em {
