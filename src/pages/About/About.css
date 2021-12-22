@@ -1,0 +1,25 @@
+body {
+  background-color: rgb(237, 237, 237);
+}
+
+.header {
+  font-size: 3vw;
+}
+
+.center {
+  text-align: center;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.aboutMe {
+  text-align: center;
+  font-style: italic;
+  font-family: "cursive";
+}
+
+.alice-carousel__next-btn {
+  text-align: left;
+}
