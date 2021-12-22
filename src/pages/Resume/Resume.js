@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import "./Resume.css";
 import Skills from './Skills';
-import Experience from './Experiene';
+import Experience from './Experience';
 import Header from './Header'
 import Footer from './Footer'
 

@@ -46,8 +46,8 @@ aside {
   padding: 20px;
   margin-left: 15%;
   margin-top: 8%;
-  border: solid;
-  box-shadow: 10px 10px 10px;
+  border: solid lightgrey;
+  box-shadow: 10px 10px 10px lightpink;
   text-align: center;
   height: 100%;
 }

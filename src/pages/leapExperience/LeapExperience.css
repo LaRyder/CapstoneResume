@@ -1,0 +1,15 @@
+.header {
+  text-align: center;
+  font-style: italic;
+  font-family: "cursive";
+}
+
+body {
+  text-align: center;
+}
+
+.links {
+  text-align: left;
+  padding: 30px;
+  margin-left: 40px;
+}
