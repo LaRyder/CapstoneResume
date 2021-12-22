@@ -1,6 +1,8 @@
 import React from "react";
 import "./LeapExperience.css";
-import {FaGithub} from 'react-icons/fa'
+import {FaGithub} from 'react-icons/fa';
+import "./Magic";
+import ball from "../../Images/8Ball.png";
 
 function LeapExperience() {
     return (
@@ -38,6 +40,9 @@ function LeapExperience() {
                <li><a href="https://www.linkedin.com/learning/learning-the-javascript-language-2?u=3322">Learning the JavaScript Language</a></li>
                <li><a href="https://www.linkedin.com/learning/react-working-with-apis?u=3322">React: Working with APIs</a></li>
             </ul>
+
+            <img src={ball} alt="Magic 8 ball" class="ball"/>
+
             </div>
     );
 } 
