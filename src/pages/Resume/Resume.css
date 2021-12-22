@@ -1,18 +1,27 @@
 .top {
-  display: flex;
   padding-left: 30px;
-}
-
-.header {
-  text-align: center;
   padding: 10px;
+  text-align: center;
+  font-style: italic;
+  font-family: "cursive";
+  font-size: large;
 }
 
 body {
   margin: 0px;
   font-family: Georgia, "Times New Roman", Times, serif;
   color: black;
+  text-align: left;
+  background-color: rgb(237, 237, 237);
+}
+
+.mHeader {
   text-align: center;
+}
+
+.Middle {
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 code {
@@ -32,12 +41,17 @@ code {
 }
 
 aside {
-  margin-left: 80px;
-  margin: 8%;
+  margin: 6%;
   width: 20%;
   padding: 20px;
+  margin-left: 15%;
+  margin-top: 8%;
   border: solid;
   box-shadow: 10px 10px 10px;
   text-align: center;
   height: 100%;
+}
+
+.Bottom {
+  text-align: center;
 }

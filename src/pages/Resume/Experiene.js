@@ -5,7 +5,7 @@ class Experience extends Component {
     render (){
         return (
         <div class="Middle">
-            <h4><b><u>My Experience:</u></b></h4>
+            <h4 className='mHeader'><b><u>My Experience:</u></b></h4>
             <p><b>Microsoft Leap Internal Program July 2021 - Present</b></p>
             <p>Leap Apprentice</p>
             <p>Work as part of a development team to implement solutions on impactful projects.</p>
