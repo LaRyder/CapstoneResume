@@ -1,0 +1,43 @@
+.top {
+  display: flex;
+  padding-left: 30px;
+}
+
+.header {
+  text-align: center;
+  padding: 10px;
+}
+
+body {
+  margin: 0px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: black;
+  text-align: center;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.row {
+  display: flex;
+  padding: 10px;
+}
+
+.sidebyside {
+  padding: 20px;
+  text-align: left;
+  margin: 65px;
+}
+
+aside {
+  margin-left: 80px;
+  margin: 8%;
+  width: 20%;
+  padding: 20px;
+  border: solid;
+  box-shadow: 10px 10px 10px;
+  text-align: center;
+  height: 100%;
+}

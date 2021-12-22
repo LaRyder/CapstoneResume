@@ -1,13 +1,21 @@
-import React from "react";
+import React, {Component} from 'react';
 import "./Resume.css";
+import Skills from './Skills';
+import Experience from './Experiene';
+import Header from './Header'
+import Footer from './Footer'
 
-function Resume() {
-    return (
-     <div className="resume">
-            <h1><strong>My Resume</strong></h1>
-
-            </div>
-    );
-} 
- 
-export default Resume;
+class Resume extends Component {
+    render(){
+      return (
+        <div>
+          <Header />
+          <Skills />
+          <Experience />
+          <Footer />
+        </div>
+      );
+    }
+  }
+  
+  export default Resume;
