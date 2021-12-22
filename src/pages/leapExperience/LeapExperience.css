@@ -10,6 +10,12 @@ body {
 
 .links {
   text-align: left;
-  padding: 30px;
   margin-left: 40px;
+  float: left;
+}
+
+.ball {
+  float: right;
+  margin-right: 15%;
+  margin-top: 40px;
 }
