@@ -16,12 +16,13 @@ body {
 }
 
 .mHeader {
-  text-align: center;
+  text-align: left;
 }
 
 .Middle {
   margin-left: 25px;
   margin-right: 25px;
+  text-align: left;
 }
 
 code {
@@ -37,19 +38,17 @@ code {
 .sidebyside {
   padding: 20px;
   text-align: left;
-  margin: 65px;
+  margin-left: 65px;
 }
 
 aside {
-  margin: 6%;
+  margin: 5%;
   width: 20%;
   padding: 20px;
   margin-left: 15%;
-  margin-top: 8%;
   border: solid lightgrey;
   box-shadow: 10px 10px 10px lightpink;
   text-align: center;
-  height: 100%;
 }
 
 .Bottom {

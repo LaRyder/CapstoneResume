@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./LeapExperience.css";
+import "./LeapExperience"
 
 const answers = [
   "It is certain",
@@ -24,7 +25,7 @@ const answers = [
   "Concentrate and ask again"
 ];
 
-export default function App() {
+export default function LeapExperience() {
   const [question, setQuestion] = useState("");
   const [answer, setAnswer] = useState("");
 
@@ -39,19 +40,6 @@ export default function App() {
 
   return (
     <div>
-      <style>
-        {`
-          .circle {
-            border: 1px solid black;
-            border-radius: 50%;
-            width: 150px;
-            height: 150px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-          }
-          `}
-      </style>
       <form onSubmit={getAnswer}>
         <div>
           <label>question</label>

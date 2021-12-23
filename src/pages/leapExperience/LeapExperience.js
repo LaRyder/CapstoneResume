@@ -2,7 +2,7 @@ import React from "react";
 import "./LeapExperience.css";
 import {FaGithub} from 'react-icons/fa';
 import ball from "../../Images/8Ball.png";
-import magic from "./magic"
+import "./magic"
 
 const LeapExperience = () => {
     return (
