@@ -9,7 +9,7 @@ class Experience extends Component {
             <p><b>Microsoft Leap Internal Program July 2021 - Present</b></p>
             <p>Leap Apprentice</p>
             <p>Work as part of a development team to implement solutions on impactful projects.</p>
-            <p>Learn software engineering fundamentals and a variety of skills that will provide knowlegde to work across the full stack of Microsoft products.</p>
+            <p>Learn software engineering fundamentals and a variety of skills that will provide knowledge to work across the full stack of Microsoft products.</p>
             <p><b>Microsoft May 2017- Present</b></p>
             <p>Site Services Technician Boydton, VA</p>
             <p>Daily collaboration amongst a team of diverse professionals to support physical infrastructure, cabling, parts/component replacements, and troubleshooting of DC operations.</p>
