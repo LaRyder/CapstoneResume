@@ -2,33 +2,50 @@
   text-align: center;
   font-style: italic;
   font-family: "cursive";
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
-body {
+.content {
+  background-color: black;
+  color: white;
+  display: block;
   text-align: center;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+}
+.matrix {
+  composes: content;
+  background: url(../../Images/matrix.png) repeat top center;
+  z-index: -2;
+  opacity: 0.5;
+}
+
+.matrix1 {
+  composes: content;
+  background: transparent url(../../Images/matrix1.png) repeat top center;
+  z-index: -1;
+  animation: fadeOutDown 300s linear infinite;
+  opacity: 0.3.5;
+}
+
+@keyframes fadeOutDown {
+  from {
+    background-position: 0, 0;
+  }
+  to {
+    background-position: -1000px, 5000px;
+  }
 }
 
 .links {
-  text-align: left;
-  margin-left: 40px;
-  float: left;
-}
-
-.ball {
-  float: right;
-  margin-right: 15%;
-  margin-top: 40px;
+  margin-top: 50px;
+  text-align: center;
+  list-style: none;
+  color: white;
 }
 
 a {
-  color: black;
-}
-
-.circle {
-  border: 1px solid black;
-  /* border-radius: 50%; */
-  width: 100px;
-  height: 100px;
-  justify-content: center;
-  align-items: center;
+  color: white;
 }

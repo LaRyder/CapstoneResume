@@ -1,11 +1,11 @@
 import React from "react";
 import "./LeapExperience.css";
 import {FaGithub} from 'react-icons/fa';
-import ball from "../../Images/8Ball.png";
-import "./magic"
+import "./leapBackground"
 
 const LeapExperience = () => {
     return (
+    <div className="content">
      <div className="LeapExperience">
             <h1 className="header">LEAP EXPERIENCE</h1>
             <p>Leap: A career changing opportunity to learn and develop software engineering skills and capabilities,</p>
@@ -39,9 +39,8 @@ const LeapExperience = () => {
            <li><a href="https://www.linkedin.com/learning/learning-the-javascript-language-2?u=3322">Learning the JavaScript Language</a></li>
            <li><a href="https://www.linkedin.com/learning/react-working-with-apis?u=3322">React: Working with APIs</a></li>
         </ul>
-
-        <img src={ball} alt="Magic 8 ball" className="ball"/>
         </div>
+    </div>
     );
 } 
  

@@ -12,7 +12,7 @@ body {
   font-family: Georgia, "Times New Roman", Times, serif;
   color: black;
   text-align: left;
-  background-color: rgb(237, 237, 237);
+  background-color: lightgray;
 }
 
 .mHeader {
@@ -46,7 +46,8 @@ aside {
   width: 20%;
   padding: 20px;
   margin-left: 15%;
-  border: solid lightgrey;
+  border: solid gray;
+  border-width: 5px;
   box-shadow: 10px 10px 10px lightpink;
   text-align: center;
 }
