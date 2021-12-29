@@ -28,6 +28,7 @@ export default class About extends React.Component {
         return (
         <div className="aboutMe">
             <h1 className="header">ABOUT ME</h1>
+            <h2 className="quote">“The measure of who we are is what we do with what we have.” — Vince Lombardi</h2>
             <p>I am Lauren, a Data Center Technician of 6 years, and an up and coming Software Engineer. I am mother of two wonderful children, and a wife to my highschool sweetheart.</p>
             <p>Technology has always been a passion of mine. Learning and growing in the Data Center has been exiting and fulfilling, but I am ready to take the next step in my career.</p>
             <p>The Leap program, which I will dive into more on the <b>Leap Experience</b> page, presented itself at the perfect time in my career.</p>

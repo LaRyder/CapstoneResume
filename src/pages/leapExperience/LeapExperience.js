@@ -10,6 +10,7 @@ export default class LeapExperience extends React.Component {
         <LeapBackground />
      <div className="LeapExperience">
             <h1 className="header">LEAP EXPERIENCE</h1>
+            <h2 className="quote">“Any fool can write code that a computer can understand. Good programmers write code that humans can understand.” – Martin Fowler</h2>
             <p>Leap: A career changing opportunity to learn and develop software engineering skills and capabilities,</p>
             <p>an opporunity that has unlocked the path for my future,</p>
             <p>and an incredible experience that I am honored to be a part of. </p>

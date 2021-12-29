@@ -21,6 +21,11 @@ body {
   font-style: italic;
   font-family: "cursive";
 }
+.quote {
+  text-align: center;
+  font-style: italic;
+  font-family: "cursive";
+}
 
 .alice-carousel__next-btn {
   text-align: left;

@@ -5,6 +5,14 @@
   margin-top: 0px;
   margin-bottom: 0px;
 }
+.quote {
+  text-align: center;
+  font-style: italic;
+  font-family: "cursive";
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: large;
+}
 
 .content {
   background-color: black;
@@ -18,7 +26,7 @@
 .matrix {
   background: url(../../Images/matrix.png) top center;
   z-index: -1;
-  opacity: 0.4;
+  opacity: 0.3;
   width: 100vw;
   height: 80%;
   position: fixed;
