@@ -42,7 +42,7 @@ export default class LeapExperience extends React.Component {
            <li><a href="https://www.linkedin.com/learning/react-working-with-apis?u=3322">React: Working with APIs</a></li>
         </ul>
         </div>
-    </div>
+        </div>
         );
     }
 }
