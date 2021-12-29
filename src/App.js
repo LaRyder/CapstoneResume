@@ -17,7 +17,6 @@ function App() {
         <Route path="LeapExperience" element={<LeapExperience />} />
       </Routes>
     </BrowserRouter>
-
   );
 }
 

@@ -17,26 +17,58 @@
 }
 .matrix {
   composes: content;
-  background: url(../../Images/matrix.png) repeat top center;
-  z-index: -2;
-  opacity: 0.5;
+  background: url(../../Images/matrix.png) top center;
+  z-index: -1;
+  opacity: 0.3;
+  width: 100vw;
+  height: 80%;
+  position: fixed;
 }
 
 .matrix1 {
   composes: content;
-  background: transparent url(../../Images/matrix1.png) repeat top center;
-  z-index: -1;
-  animation: fadeOutDown 300s linear infinite;
-  opacity: 0.3.5;
+  background: url(../../Images/matrix1.png) top center;
+  z-index: -2;
+  animation: fadeOutDown 20s linear infinite;
+  width: 100vw;
+  height: 80%;
+  position: fixed;
+}
+
+.matrix2 {
+  composes: content;
+  background: url(../../Images/matrix2.png) top center;
+  z-index: -2;
+  animation: fadeOutDown 30s linear infinite;
+  width: 100vw;
+  height: 80%;
+  position: fixed;
+}
+
+.matrix3 {
+  composes: content;
+  background: url(../../Images/matrix3.png) top center;
+  z-index: -3;
+  animation: fadeOutDown 40s linear infinite;
+  width: 100vw;
+  height: 80%;
+  position: fixed;
+  opacity: 0.3;
 }
 
 @keyframes fadeOutDown {
   from {
-    background-position: 0, 0;
+    opacity: 0.2;
   }
+
   to {
-    background-position: -1000px, 5000px;
+    opacity: -1;
+    transform: translate3d(0, 70%, 0);
   }
+}
+
+.fadeOutDown {
+  animation-name: fadeOutDown;
 }
 
 .links {

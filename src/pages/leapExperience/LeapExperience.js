@@ -1,11 +1,13 @@
 import React from "react";
 import "./LeapExperience.css";
 import {FaGithub} from 'react-icons/fa';
-import "./leapBackground"
+import LeapBackground from './LeapBackground'
 
-const LeapExperience = () => {
-    return (
+export default class LeapExperience extends React.Component {
+    render () {
+        return (
     <div className="content">
+        <LeapBackground />
      <div className="LeapExperience">
             <h1 className="header">LEAP EXPERIENCE</h1>
             <p>Leap: A career changing opportunity to learn and develop software engineering skills and capabilities,</p>
@@ -41,7 +43,6 @@ const LeapExperience = () => {
         </ul>
         </div>
     </div>
-    );
-} 
- 
-export default LeapExperience;
+        );
+    }
+}
