@@ -2,8 +2,9 @@ import React from "react";
 import {Link} from "react-router-dom";
 import "./NavBanner.css"
 
-function NavBanner() {
-    return (
+export default class NavBanner extends React.Component {
+  render () {
+      return (
       <nav>
         <div class="navContainer">
         <div class="headerInner">
@@ -21,6 +22,5 @@ function NavBanner() {
         </div>
       </nav>
     );
+  }
 }
-
-export default NavBanner;

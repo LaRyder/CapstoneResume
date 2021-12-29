@@ -1,7 +1,6 @@
-import { Component } from 'react';
+import React from "react";
 
-
-class Experience extends Component {
+export default class LeapExperience extends React.Component {
     render (){
         return (
         <div class="Middle">
@@ -34,4 +33,3 @@ class Experience extends Component {
         );
     }
 }
-export default Experience;

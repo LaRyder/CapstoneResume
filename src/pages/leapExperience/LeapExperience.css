@@ -19,7 +19,7 @@
   composes: content;
   background: url(../../Images/matrix.png) top center;
   z-index: -1;
-  opacity: 0.3;
+  opacity: 0.4;
   width: 100vw;
   height: 80%;
   position: fixed;
@@ -50,6 +50,17 @@
   background: url(../../Images/matrix3.png) top center;
   z-index: -3;
   animation: fadeOutDown 40s linear infinite;
+  width: 100vw;
+  height: 80%;
+  position: fixed;
+  opacity: 0.3;
+}
+
+.matrix4 {
+  composes: content;
+  background: url(../../Images/matrix4.png) top center;
+  z-index: -4;
+  animation: fadeOutDown 10s linear infinite;
   width: 100vw;
   height: 80%;
   position: fixed;

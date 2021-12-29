@@ -18,9 +18,14 @@ import pic13 from "../../Images/Snapchat-17.jpg";
 import pic14 from "../../Images/Snapchat-20.jpg";
 import pic15 from"../../Images/20191202_171043.jpg";
 import pic16 from"../../Images/36236.jpeg";
+import pic17 from"../../Images/20211225.jpg";
+import pic18 from"../../Images/Snapchat-18.jpg";
+import pic19 from"../../Images/Snapchat-21.jpg";
 
-function About() {
-    return (
+
+export default class About extends React.Component {
+    render () {
+        return (
         <div className="aboutMe">
             <h1 className="header">ABOUT ME</h1>
             <p>I am Lauren, a Data Center Technician of 6 years, and an up and coming Software Engineer. I am mother of two wonderful children, and a wife to my highschool sweetheart.</p>
@@ -46,10 +51,13 @@ function About() {
                 <img src={pic14} alt="My family" class="center"/>
                 <img src={pic15} alt="My Family" class="center"/>
                 <img src={pic16} alt="My Family" class="center"/>
-              </AliceCarousel>
-        </div>
-        </div>
-    );
-}
+                <img src={pic17} alt="My Family" class="center"/>
+                <img src={pic18} alt="My Family" class="center"/>
+                <img src={pic19} alt="My Family" class="center"/>
 
-export default About;
+              </AliceCarousel>
+            </div>
+            </div>
+        );
+    }
+}

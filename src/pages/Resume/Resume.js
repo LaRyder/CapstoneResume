@@ -1,11 +1,11 @@
-import React, {Component} from 'react';
+import React from "react";
 import "./Resume.css";
 import Skills from './Skills';
 import Experience from './Experience';
 import Header from './Header'
 import Footer from './Footer'
 
-class Resume extends Component {
+export default class Resume extends React.Component {
     render(){
       return (
         <div>
@@ -13,9 +13,7 @@ class Resume extends Component {
           <Skills />
           <Experience />
           <Footer />
-        </div>
-      );
-    }
+      </div>
+    );
   }
-  
-  export default Resume;
+}

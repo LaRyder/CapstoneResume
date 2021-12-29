@@ -1,7 +1,6 @@
-import { Component } from 'react';
+import React from 'react';
 
-
-class Skills extends Component {
+export default class Skills extends React.Component {
     render (){
         return (
             <div class="row">
@@ -45,4 +44,3 @@ class Skills extends Component {
     }
 }
 
-export default Skills;

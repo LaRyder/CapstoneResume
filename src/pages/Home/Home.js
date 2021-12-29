@@ -7,9 +7,10 @@ import {FaGoogle} from 'react-icons/fa'
 import cert from "../../Images/CJIS.png";
 import coin from "../../Images/57730.png";
 
-function Home() {
-    return (
-     <div className="resumePic">
+export default class Home extends React.Component {
+    render () {
+        return (
+        <div className="resumePic">
         <div className="bodyContent">
             <h1 className="title">My name is Lauren Ryder</h1>
             <div className="jobDescription">
@@ -28,9 +29,8 @@ function Home() {
             <p><em><b>Motivation</b></em>{" "}determines what you do</p>
             <p><em><b>Attitude</b></em>{" "}determines how well you do it.</p>
             </div>
-        </div>
-     </div>
-    );
-} 
- 
-export default Home;
+            </div>
+            </div>
+        );
+    }  
+}

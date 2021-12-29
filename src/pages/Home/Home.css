@@ -37,7 +37,7 @@
 em {
   font-size: xx-large;
   letter-spacing: 0.8px;
-  color: pink;
+  color: rgb(255, 227, 246);
 }
 
 .icons {
@@ -45,7 +45,7 @@ em {
 }
 
 .iconButton:hover {
-  background-color: pink;
+  background-color: rgb(255, 227, 246);
 }
 
 .cert {
