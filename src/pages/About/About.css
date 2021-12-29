@@ -4,7 +4,8 @@ body {
 
 .header {
   font-size: 3vw;
-  color: lightpink;
+  color: whitesmoke;
+  text-shadow: 10px 10px 10px black;
 }
 
 .center {
