@@ -5,6 +5,11 @@
   font-family: "cursive";
   font-size: large;
 }
+.quote {
+  text-align: center;
+  font-style: italic;
+  font-family: "cursive";
+}
 
 body {
   margin: 0px;
