@@ -28,7 +28,7 @@ export default class Skills extends React.Component {
             </div>
 
             <aside>
-            <h3><b><u>About Me:</u></b></h3>
+            <h3><b><u>About Me:</u></b></h3> 
         <dl>
           <dt><b>Address: </b></dt>
           <p>555 Forest Lane</p>

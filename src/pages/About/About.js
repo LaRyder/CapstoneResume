@@ -35,6 +35,7 @@ export default class About extends React.Component {
             <p>The anticipation of deciding what I wanted to be when I grow up, defined itself on May 11, 2021. Without and second thought, </p>
             <p>the application was submitted, I excitedly received my acceptance letter, and the fast-paced, stimulating experience began. </p>
         <div className="carousel">
+            {/* Carousel for pictures  */}
             <AliceCarousel autoPlay autoPlayInterval="3000">
                 <img src={pic1} alt="My family" class="center"/>
                 <img src={pic2} alt="My family" class="center"/>
@@ -55,7 +56,6 @@ export default class About extends React.Component {
                 <img src={pic17} alt="My Family" class="center"/>
                 <img src={pic18} alt="My Family" class="center"/>
                 <img src={pic19} alt="My Family" class="center"/>
-
               </AliceCarousel>
             </div>
             </div>

@@ -10,6 +10,7 @@ import coin from "../../Images/57730.png";
 export default class Home extends React.Component {
     render () {
         return (
+        //Div class for resume picture - background
         <div className="resumePic">
         <div className="bodyContent">
             <h1 className="title">My name is Lauren Ryder</h1>

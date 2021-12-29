@@ -6,9 +6,10 @@ import LeapBackground from './LeapBackground'
 export default class LeapExperience extends React.Component {
     render () {
         return (
-    <div className="content">
+    <div className="content"> {/*Div class created to separate page page and matrix background styling */}
         <LeapBackground />
      <div className="LeapExperience">
+         {/* Top portion on Leap Experience */}
             <h1 className="header">LEAP EXPERIENCE</h1>
             <h2 className="quote">“Any fool can write code that a computer can understand. Good programmers write code that humans can understand.” – Martin Fowler</h2>
             <p>Leap: A career changing opportunity to learn and develop software engineering skills and capabilities,</p>
@@ -21,6 +22,7 @@ export default class LeapExperience extends React.Component {
             <p>The program is a fast-paced, challenging, and very well planned curriculum that has provided and solid foundation to start my dream career. </p>
 
         <ul className="links">
+            {/* Links pulled from Leap GitHub */}
            <li><a href="https://www.linkedin.com/learning/git-essential-training-the-basics?u=3322">Git Essential Training: The Basics</a></li>
            <li><a href="https://www.linkedin.com/learning/html-essential-training-4?u=3322">HTML Essential Training</a></li>
            <li><a href="https://www.linkedin.com/learning/git-branches-merges-and-remotes?u=3322">Git: Branches, Merges, and Remotes</a></li>
