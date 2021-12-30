@@ -14,9 +14,9 @@
 body {
   margin: 0px;
   font-family: Georgia, "Times New Roman", Times, serif;
-  color: black;
+  color: whitesmoke;
   text-align: left;
-  background-color: lightgray;
+  background-color: rgba(0, 0, 0, 0.76);
 }
 
 .mHeader {
@@ -46,11 +46,11 @@ code {
 }
 
 aside {
-  margin: 5%;
-  width: 20%;
+  margin: 4%;
+  width: 15%;
   padding: 20px;
-  margin-left: 15%;
-  border: solid gray;
+  margin-left: 25%;
+  border: groove gray;
   border-width: 5px;
   box-shadow: 10px 10px 10px rgb(255, 227, 246);
   text-align: center;

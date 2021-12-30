@@ -1,11 +1,9 @@
-body {
-  background-color: rgb(237, 237, 237);
-}
-
 .header {
-  font-size: 3vw;
+  font-size: 4vw;
   color: rgb(255, 227, 246);
   text-shadow: 10px 10px 10px rgb(15, 14, 14);
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  font-style: oblique;
 }
 
 .center {

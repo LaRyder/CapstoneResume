@@ -13,7 +13,7 @@ export default class Home extends React.Component {
         //Div class for resume picture - background
         <div className="resumePic">
         <div className="bodyContent">
-            <h1 className="title">My name is Lauren Ryder</h1>
+            <h1 className="title">Hi, I am Lauren Ryder</h1>
             <div className="jobDescription">
             <p>Deployment Technician / Leap Apprentice</p>
             <div className="icons">

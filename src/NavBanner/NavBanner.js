@@ -14,8 +14,8 @@ export default class NavBanner extends React.Component {
         </div>
         <div class="rightSide">
         <Link class="navButton" to="About">About</Link>
-        <Link class="navButton" to="leapExperience">leap Experience</Link>
         <Link class="navButton" to="Resume">Resume</Link>
+        <Link class="navButton" to="leapExperience">leap Experience</Link>
         </div>
       </ul>
         </div>
