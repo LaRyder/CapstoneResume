@@ -3,9 +3,9 @@
   background-position: center;
   position: fixed;
   background-size: cover;
-  width: 98.5vw;
+  width: 100vw;
   height: 100vh;
-  z-index: 2;
+  z-index: -1;
 }
 
 .bodyContent {
@@ -18,9 +18,9 @@
   font-size: 8vw;
   font-family: Brush Script MT, Brush Script Std, cursive;
   font-style: oblique;
-  font-weight: 50;
+  font-weight: 10;
   margin: 1px;
-  line-height: 0.5;
+  line-height: 0.7;
   z-index: 1;
 }
 
@@ -48,7 +48,7 @@ em {
 }
 
 .iconButton:hover {
-  background-color: rgb(255, 227, 246);
+  background-color: transparent;
 }
 
 .cert {

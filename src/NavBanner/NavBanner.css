@@ -1,6 +1,7 @@
 .navContainer {
   background-color: black;
   padding: 10px;
+  overflow-x: hidden;
 }
 
 .headerInner {
@@ -26,7 +27,7 @@
 
 .leftSide {
   position: absolute;
-  left: 4%;
+  left: 20%;
   text-transform: uppercase;
   letter-spacing: 0.1em;
 }
@@ -34,5 +35,5 @@
 .rightSide {
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  margin-left: 40%;
+  margin-left: 15%;
 }
