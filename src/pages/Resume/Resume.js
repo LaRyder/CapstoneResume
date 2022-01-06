@@ -7,10 +7,10 @@ import Footer from './Footer'
 export default class Resume extends React.Component {
     render(){
       return (
-        <div>
-          <Header />
-          <Skills />
-          <Footer />
+      <div>
+        <Header />
+        <Skills />
+        <Footer />
       </div>
     );
   }
