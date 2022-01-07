@@ -19,20 +19,21 @@
 .row {
   display: flex;
   padding: 10px;
+  font-size: small;
 }
 
 .sidebyside {
   padding: 10px;
   text-align: left;
   margin-left: 45px;
-  margin-right: 20px;
+  margin-right: 10px;
 }
 
 aside {
   padding: 10px;
   text-align: left;
   border-left: dotted;
-  width: 20vw;
+  width: 15%;
 }
 
 .Bottom {

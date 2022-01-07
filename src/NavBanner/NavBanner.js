@@ -11,7 +11,7 @@ export default class NavBanner extends React.Component {
             <ul>
               <div class="leftSide">
                 <Link class="navButton" to="/">Lauren Ryder</Link>
-                <Link class="navButton" to="/">Contact Me</Link>
+                <Link class="navButton" to="ContactMe">Contact Me</Link>
               </div>
               <div class="rightSide">
                 <Link class="navButton" to="About">About</Link>

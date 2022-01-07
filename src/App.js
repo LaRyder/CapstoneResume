@@ -16,7 +16,7 @@ function App() {
         <Route path="About" element={<About />} />
         <Route path="Resume" element={<Resume />} />
         <Route path="LeapExperience" element={<LeapExperience />} />
-        <Route path="Contact Me" element={<ContactMe />} />
+        <Route path="ContactMe" element={<ContactMe />} />
       </Routes>
     </BrowserRouter>
   );

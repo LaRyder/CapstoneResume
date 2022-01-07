@@ -1,13 +1,12 @@
-/* body {
-  background: #7877e6;
+body {
   color: #fff;
   letter-spacing: 1px;
 }
 
-header {
+.header {
   margin: 20px;
   text-align: center;
-} */
+}
 
 .success {
   color: #0ff40f;
@@ -15,4 +14,10 @@ header {
 
 .error {
   color: #960303;
+}
+
+.form {
+  margin: 7%;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
 }

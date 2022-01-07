@@ -1,9 +1,17 @@
 import React from 'react';
-import {SiMicrosoftoutlook} from "react-icons/si";
-import {BsFillTelephoneFill} from "react-icons/bs";
-import {GoLocation} from "react-icons/go";
 import Popup from "reactjs-popup";
 import "reactjs-popup/dist/index.css";
+
+const skills = [
+  {
+    trigger: 'HP Server Hardware support',
+    text: 'Perform basic diagnostics'
+  },
+  {
+    trigger: 'Cisco, F5, and Juniper',
+    text: 'etc'
+  }
+];
 
 export default class Skills extends React.Component {
     render (){
@@ -38,16 +46,19 @@ export default class Skills extends React.Component {
           </div>
 
         <aside>
-          <h1><b><u>Contact:</u></b></h1> 
-            <dl>
-              <p><GoLocation></GoLocation> 1 Forest Lane South Hill, Va 23970</p>      
-              <p><BsFillTelephoneFill></BsFillTelephoneFill> 434-480-0222</p>
-              <p><SiMicrosoftoutlook></SiMicrosoftoutlook> Lauren.Ryder@Microsoft.com</p>
-            </dl>
-
           <h1><b><u> Specific Skills: </u></b></h1>
           <ul>
-            <li><Popup trigger={<button>HP Server Hardware support</button>}>
+            {skills.map((skill) => {
+              return (
+                <li>
+                  <Popup trigger={<button>{skill.trigger}</button>}>
+                    <div class="text">{skill.text}</div>
+                  </Popup>
+                </li>
+              );
+            })}
+            </ul>
+            {/* <li><Popup trigger={<button>HP Server Hardware support</button>}>
             <div class="text">Perform basic diagnostics and troubleshooting by following standard procedures to identify the cause of issues and replace faulty components with minimal customer and business disruption.</div>
             </Popup></li>
             <li><Popup trigger={<button>Cisco, F5 and Juniper Network</button>}>
@@ -95,8 +106,7 @@ export default class Skills extends React.Component {
             </Popup></li>
             <li><Popup trigger={<button>Javascript</button>}>
             <div class="text"></div>
-            </Popup></li>
-          </ul>
+            </Popup></li> */}
         </aside>
       </div>
     );
