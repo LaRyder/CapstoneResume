@@ -27,65 +27,21 @@
   text-shadow: black;
 }
 .matrix {
-  background: url(../../Images/matrix.png) top center;
+  background: url(../../Images/Matrix.jpg) top center;
   z-index: -1;
-  opacity: 0.2;
-  width: 100vw;
-  height: 70%;
+  opacity: 0.1;
+  width: 99.7vw;
+  height: 100vh;
   position: fixed;
 }
 
 .matrix1 {
-  background: url(../../Images/matrix1.png) top center;
+  background: url(../../Images/Matrix.jpg) top center;
   z-index: -2;
-  animation: fadeOutDown 20s linear infinite;
+  opacity: 0.1;
   width: 100vw;
-  height: 70%;
+  height: 99.7vh;
   position: fixed;
-}
-
-.matrix2 {
-  background: url(../../Images/matrix2.png) top center;
-  z-index: -3;
-  animation: fadeOutDown 30s linear infinite;
-  width: 100vw;
-  height: 70%;
-  position: fixed;
-}
-
-.matrix3 {
-  background: url(../../Images/matrix3.png) top center;
-  z-index: -4;
-  animation: fadeOutDown 40s linear infinite;
-  width: 100vw;
-  height: 70%;
-  position: fixed;
-  opacity: 0.2;
-}
-
-.matrix4 {
-  background: url(../../Images/matrix4.png) top center;
-  z-index: -5;
-  animation: fadeOutDown 10s linear infinite;
-  width: 100vw;
-  height: 80%;
-  position: fixed;
-  opacity: 0.2;
-}
-
-@keyframes fadeOutDown {
-  from {
-    opacity: 0.2;
-  }
-
-  to {
-    opacity: -1;
-    transform: translate3d(0, 70%, 0);
-  }
-}
-
-.fadeOutDown {
-  animation-name: fadeOutDown;
 }
 
 .links {

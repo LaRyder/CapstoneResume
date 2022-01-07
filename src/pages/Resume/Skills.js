@@ -2,6 +2,8 @@ import React from 'react';
 import {SiMicrosoftoutlook} from "react-icons/si";
 import {BsFillTelephoneFill} from "react-icons/bs";
 import {GoLocation} from "react-icons/go";
+import Popup from "reactjs-popup";
+import "reactjs-popup/dist/index.css";
 
 export default class Skills extends React.Component {
     render (){
@@ -45,23 +47,55 @@ export default class Skills extends React.Component {
 
           <h1><b><u> Specific Skills: </u></b></h1>
           <ul>
-            <li>HP Server Hardware support</li>
-            <li>Cisco, F5 and Juniper Network</li>
-            <li>Datacenter network infrastructure</li>
-            <li>Organized and efficient in a dynamic and high-pressure environment</li>
-            <li>Experience in Bing, Office 365, Xbox, OneDrive and Microsoft Azure platforms</li>
-            <li>Experience performing cable installations, hardware rack /stack installations,</li>
-            <li>testing, and troubleshooting using standard datacenter processes.</li>
-            <li>Problem Solving</li>
-            <li>Verbal/Written Communication</li>
-            <li>Microsoft Office</li>
-            <li>MSAsset</li>
-            <li>Phynet/ PNaaS</li>
-            <li>GDCO</li>
-            <li>CSS</li>
-            <li>HTML</li>
-            <li>C#</li>
-            <li>Javascript</li>
+            <li><Popup trigger={<button>HP Server Hardware support</button>}>
+            <div class="text">Perform basic diagnostics and troubleshooting by following standard procedures to identify the cause of issues and replace faulty components with minimal customer and business disruption.</div>
+            </Popup></li>
+            <li><Popup trigger={<button>Cisco, F5 and Juniper Network</button>}>
+            <div class="text">Types of network gear deployed in the Data Center.</div>
+            </Popup></li>
+            <li><Popup trigger={<button>Datacenter network infrastructure</button>}>
+            <div class="text">Servers, Computers, Networking equipment, such as routers or switches, Security, such as firewall or biometric security system, Storage, such as storage area network (SAN) or backup/tape storage, Data center management software/applications</div>
+            </Popup></li>
+            <li><Popup trigger={<button>Organized and efficient in a dynamic and high-pressure environment</button>}>
+            <div class="text">Strong results-orientation and demonstrats focus on high-quality work. Strong work ethic. Organized, efficient, process oriented Self-motivated, team player. Works well under pressure in a dynamic environment</div>
+            </Popup></li>
+            <li><Popup trigger={<button>Experience in Bing, Office 365, Xbox, OneDrive and Microsoft Azure platforms</button>}>
+            <div class="text">Services many customers use that are provided by Microsoft</div>
+            </Popup></li>
+            <li><Popup trigger={<button>Experience performing cable installations, hardware rack /stack installations,
+            testing, and troubleshooting using standard datacenter processes.</button>}>
+            <div class="text"></div>
+            </Popup></li>
+            <li><Popup trigger={<button>Problem Solving</button>}>
+            <div class="text"></div>
+            </Popup></li>
+            <li><Popup trigger={<button>Verbal/Written Communication</button>}>
+            <div class="text"></div>
+            </Popup></li>
+            <li><Popup trigger={<button>Microsoft Office</button>}>
+            <div class="text"></div>
+            </Popup></li>
+            <li><Popup trigger={<button>MSAsset</button>}>
+            <div class="text"></div>
+            </Popup></li>
+            <li><Popup trigger={<button>Phynet/ PNaaS</button>}>
+            <div class="text"></div>
+            </Popup></li>
+            <li><Popup trigger={<button>GDCO</button>}>
+            <div class="text"></div>
+            </Popup></li>
+            <li><Popup trigger={<button>CSS</button>}>
+            <div class="text"></div>
+            </Popup></li>
+            <li><Popup trigger={<button>HTML</button>}>
+            <div class="text"></div>
+            </Popup></li>
+            <li><Popup trigger={<button>C#</button>}>
+            <div class="text"></div>
+            </Popup></li>
+            <li><Popup trigger={<button>Javascript</button>}>
+            <div class="text"></div>
+            </Popup></li>
           </ul>
         </aside>
       </div>

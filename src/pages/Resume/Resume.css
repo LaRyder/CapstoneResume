@@ -25,14 +25,14 @@
   padding: 10px;
   text-align: left;
   margin-left: 45px;
+  margin-right: 20px;
 }
 
 aside {
   padding: 10px;
   text-align: left;
   border-left: dotted;
-  margin-left: 20%;
-  margin-right: 5%;
+  width: 20vw;
 }
 
 .Bottom {
@@ -42,4 +42,19 @@ aside {
 ul {
   list-style-type: none;
   padding-inline-start: 0;
+}
+
+button {
+  background-color: rgba(0, 0, 0, 0.151);
+  color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  border-width: 2px;
+  border-style: outset;
+  border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+  cursor: pointer;
+}
+
+.text {
+  color: rgb(248, 160, 175);
 }

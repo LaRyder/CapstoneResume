@@ -6,6 +6,7 @@ import {FaGithub} from 'react-icons/fa'
 import {FaGoogle} from 'react-icons/fa'
 import cert from "../../Images/CJIS.png";
 import coin from "../../Images/57730.png";
+import badge from "../../Images/dply.png"
 
 export default class Home extends React.Component {
     render () {
@@ -23,6 +24,7 @@ export default class Home extends React.Component {
                                 <a className="iconButton" href="mailto:ryderl88@gmail.com"><FaGoogle color="black" fontSize="1.5em" ></FaGoogle></a>
                             </div>
                         <img src={cert} alt="CJIS Certificate" className="cert"/>
+                        <img src={badge} alt="Deployment Badge" className="badge"/>
                         <img src={coin} alt="Microsoft Coin Award" className="coin"/>
                         </div>
                     <div className="quote">
