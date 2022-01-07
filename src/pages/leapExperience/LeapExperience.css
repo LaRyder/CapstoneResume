@@ -26,6 +26,7 @@
   position: fixed;
   text-shadow: black;
 }
+
 .matrix {
   background: url(../../Images/Matrix.jpg) top center;
   z-index: -1;
@@ -53,4 +54,23 @@
 
 a {
   color: white;
+}
+
+button.tTrainings,
+button.nTrainings {
+  font-size: 70px;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  margin: 40px;
+  margin-top: 8%;
+  border-style: hidden;
+  color: rgba(0, 128, 0, 0.63);
+  text-shadow: 8px 8px 8px rgba(0, 128, 0, 0.637);
+}
+
+a {
+  color: black;
+}
+
+.text {
+  line-height: 1.5;
 }
