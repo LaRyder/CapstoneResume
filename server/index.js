@@ -1,13 +1,13 @@
-const path = require('path');
-const express = require('express');
-const transporter = require('./config');
-const dotenv = require('dotenv');
-dotenv.config();
+import { join } from 'path';
+import express, { json } from 'express';
+import { sendMail } from './config';
+import { config } from 'dotenv';
+config();
 const app = express();
 
-const buildPath = path.join(__dirname, '..', 'build');
-app.use(express.json());
-app.use(express.static(buildPath));
+const buildPath = join(__dirname, '..', 'build');
+app.use(json());
+app.use(buildPath);
 
 app.post('/send', (req, res) => {
   try {
@@ -27,23 +27,23 @@ app.post('/send', (req, res) => {
       `
     };
 
-    transporter.sendMail(mailOptions, function (err, info) {
+    sendMail(mailOptions, function (err, info) {
       if (err) {
         res.status(500).send({
           success: false,
-          message: 'Something went wrong. Try again later'
+          message: 'There was a problem completing your request. Please try again later'
         });
       } else {
         res.send({
           success: true,
-          message: 'Thanks for contacting us. We will get back to you shortly'
+          message: 'Thanks for contacting me. I will get back to you shortly'
         });
       }
     });
   } catch (error) {
     res.status(500).send({
       success: false,
-      message: 'Something went wrong. Try again later'
+      message: 'There was a problem completing your request. Please try again later'
     });
   }
 });
