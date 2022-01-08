@@ -103,7 +103,7 @@ export default class Skills extends React.Component {
           </div>
 
         <aside>
-          <h1><b><u> Specific Skills: </u></b></h1>
+          <h1 className='mHeader'><b><u> Specific Skills: </u></b></h1>
           <ul>
             {skills.map((skill) => {
               return (

@@ -13,20 +13,22 @@
 }
 
 .mHeader {
-  text-align: left;
+  text-align: center;
+  font-size: x-large;
 }
 
 .row {
   display: flex;
   padding: 10px;
-  font-size: small;
+  font-size: smaller;
 }
 
 .sidebyside {
   padding: 10px;
   text-align: left;
   margin-left: 45px;
-  margin-right: 10px;
+  margin-right: 10%;
+  width: 70%;
 }
 
 aside {
