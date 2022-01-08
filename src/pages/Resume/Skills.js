@@ -5,12 +5,69 @@ import "reactjs-popup/dist/index.css";
 const skills = [
   {
     trigger: 'HP Server Hardware support',
-    text: 'Perform basic diagnostics'
+    text: 'Perform basic diagnostics and troubleshooting by following standard procedures to identify the cause of issues and replace faulty components with minimal customer and business disruption.'
   },
   {
     trigger: 'Cisco, F5, and Juniper',
-    text: 'etc'
-  }
+    text: 'Types of network gear deployed in the Data Center.'
+  },
+  {
+    trigger: 'Datacenter network infrastructure',
+    text: 'Servers, Computers, Networking equipment, such as routers or switches, Security, such as firewall or biometric security system, Storage, such as storage area network (SAN) or backup/tape storage, Data center management software/applications.'
+  },
+  {
+    trigger: 'Organized and efficient in a dynamic and high-pressure environment',
+    text: 'Strong results-orientation and demonstrates focus on high-quality work. Strong work ethic. Organized, efficient, process oriented Self-motivated, team player. Works well under pressure in a dynamic environment.'
+  },
+  {
+    trigger: 'Experience in Bing, Office 365, Xbox, OneDrive and Microsoft Azure platforms',
+    text: 'Services many customers use that are provided by Microsoft'
+  },
+  {
+    trigger: 'Experience performing cable installations, hardware rack /stack installations, testing, and troubleshooting using standard datacenter processes.',
+    text: 'Fiber, AOC, and copper cable intallations / Installing network device equipment in the production area / Actioning tasks to ensure equipment is functioning properly.'
+  },
+  {
+    trigger: 'Problem Solving',
+    text: 'Defining a problem; determining the cause of the problem; identifying, prioritizing, and selecting alternatives for a solution; and implementing a solution.'
+  },
+  {
+    trigger: 'Verbal/Written Communication',
+    text: 'Language, each written and spoken'
+  },
+  {
+    trigger: 'Microsoft Office',
+    text: 'A suite of desktop productivity applications that is designed specifically to be used for office or business use.'
+  },
+  {
+    trigger: 'MSAsset',
+    text: 'An application to manage asset and configuration management information in both managed and non-managed data centers.'
+  },
+  {
+    trigger: 'Phynet/ PNaaS',
+    text: ''
+  },
+  {
+    trigger: 'GDCO',
+    text: 'An Application (formerly MSAsset) to manage asset and configuration management information in both managed and non-managed data centers.'
+  },
+  {
+    trigger: 'CSS',
+    text: 'A simple design language intended to simplify the process of making web pages presentable.'
+  },
+  {
+    trigger: 'HTML',
+    text: 'Hypertext Markup Language, a standardized system for tagging text files to achieve font, color, graphic, and hyperlink effects on World Wide Web pages.'
+  },
+  {
+    trigger: 'C#',
+    text: 'An object-oriented programming language created by Microsoft that runs on the .NET Framework.'
+  },
+  {
+    trigger: 'Javascript',
+    text: 'An object-oriented computer programming language commonly used to create interactive effects within web browsers.'
+  },
+
 ];
 
 export default class Skills extends React.Component {
@@ -54,59 +111,10 @@ export default class Skills extends React.Component {
                   <Popup trigger={<button>{skill.trigger}</button>}>
                     <div class="text">{skill.text}</div>
                   </Popup>
-                </li>
+                </li>     
               );
             })}
-            </ul>
-            {/* <li><Popup trigger={<button>HP Server Hardware support</button>}>
-            <div class="text">Perform basic diagnostics and troubleshooting by following standard procedures to identify the cause of issues and replace faulty components with minimal customer and business disruption.</div>
-            </Popup></li>
-            <li><Popup trigger={<button>Cisco, F5 and Juniper Network</button>}>
-            <div class="text">Types of network gear deployed in the Data Center.</div>
-            </Popup></li>
-            <li><Popup trigger={<button>Datacenter network infrastructure</button>}>
-            <div class="text">Servers, Computers, Networking equipment, such as routers or switches, Security, such as firewall or biometric security system, Storage, such as storage area network (SAN) or backup/tape storage, Data center management software/applications</div>
-            </Popup></li>
-            <li><Popup trigger={<button>Organized and efficient in a dynamic and high-pressure environment</button>}>
-            <div class="text">Strong results-orientation and demonstrats focus on high-quality work. Strong work ethic. Organized, efficient, process oriented Self-motivated, team player. Works well under pressure in a dynamic environment</div>
-            </Popup></li>
-            <li><Popup trigger={<button>Experience in Bing, Office 365, Xbox, OneDrive and Microsoft Azure platforms</button>}>
-            <div class="text">Services many customers use that are provided by Microsoft</div>
-            </Popup></li>
-            <li><Popup trigger={<button>Experience performing cable installations, hardware rack /stack installations,
-            testing, and troubleshooting using standard datacenter processes.</button>}>
-            <div class="text"></div>
-            </Popup></li>
-            <li><Popup trigger={<button>Problem Solving</button>}>
-            <div class="text"></div>
-            </Popup></li>
-            <li><Popup trigger={<button>Verbal/Written Communication</button>}>
-            <div class="text"></div>
-            </Popup></li>
-            <li><Popup trigger={<button>Microsoft Office</button>}>
-            <div class="text"></div>
-            </Popup></li>
-            <li><Popup trigger={<button>MSAsset</button>}>
-            <div class="text"></div>
-            </Popup></li>
-            <li><Popup trigger={<button>Phynet/ PNaaS</button>}>
-            <div class="text"></div>
-            </Popup></li>
-            <li><Popup trigger={<button>GDCO</button>}>
-            <div class="text"></div>
-            </Popup></li>
-            <li><Popup trigger={<button>CSS</button>}>
-            <div class="text"></div>
-            </Popup></li>
-            <li><Popup trigger={<button>HTML</button>}>
-            <div class="text"></div>
-            </Popup></li>
-            <li><Popup trigger={<button>C#</button>}>
-            <div class="text"></div>
-            </Popup></li>
-            <li><Popup trigger={<button>Javascript</button>}>
-            <div class="text"></div>
-            </Popup></li> */}
+          </ul> 
         </aside>
       </div>
     );

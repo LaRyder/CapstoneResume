@@ -4,11 +4,12 @@ import './Contact.css';
 import ContactForm from "./ContactForm"
 
 export default class Contact extends React.Component {
-    render () {
-        return (
+  render() {
+    return (
       <div className="container">
-          <h1 className='header'>Contact Me</h1>
+        <div className="col-md-6 offset-md-3">
           <ContactForm />
+        </div>
       </div>
     );
   }

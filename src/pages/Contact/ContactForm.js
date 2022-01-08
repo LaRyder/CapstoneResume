@@ -28,7 +28,7 @@ const ContactForm = () => {
       .catch(() => {
         setResult({
           success: false,
-          message: 'Something went wrong. Try again later'
+          message: 'There was a problem completing your request. Please try again later'
         });
       });
   };
