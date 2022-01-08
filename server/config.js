@@ -1,8 +1,8 @@
-import { createTransport } from 'nodemailer';
-import { config } from 'dotenv';
-config();
+const nodemailer = require('nodemailer');
+const dotenv = require('dotenv');
+dotenv.config();
 
-var transporter = createTransport({
+var transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
     user: process.env.email, // email address to send email from
@@ -10,4 +10,4 @@ var transporter = createTransport({
   }
 });
 
-export default transporter
+module.exports = transporter;

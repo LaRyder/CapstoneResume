@@ -1,13 +1,13 @@
-import { join } from 'path';
-import express, { json } from 'express';
-import { sendMail } from './config';
-import { config } from 'dotenv';
-config();
+const path = require('path');
+const express = require('express');
+const transporter = require('./config');
+const dotenv = require('dotenv');
+dotenv.config();
 const app = express();
 
-const buildPath = join(__dirname, '..', 'build');
-app.use(json());
-app.use(buildPath);
+const buildPath = path.join(__dirname, '..', 'build');
+app.use(express.json());
+app.use(express.static(buildPath));
 
 app.post('/send', (req, res) => {
   try {
@@ -27,7 +27,7 @@ app.post('/send', (req, res) => {
       `
     };
 
-    sendMail(mailOptions, function (err, info) {
+    transporter.sendMail(mailOptions, function (err, info) {
       if (err) {
         res.status(500).send({
           success: false,
@@ -49,5 +49,5 @@ app.post('/send', (req, res) => {
 });
 
 app.listen(3030, () => {
-    console.log('server start on port 3030');
-  });
+  console.log('server start on port 3030');
+});
