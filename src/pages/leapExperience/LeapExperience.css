@@ -24,7 +24,7 @@
   width: 100vw;
   height: 100vh;
   position: fixed;
-  text-shadow: black;
+  text-shadow: 8px 8px 8px black;
 }
 
 .matrix {
