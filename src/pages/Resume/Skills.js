@@ -45,7 +45,7 @@ const skills = [
   },
   {
     trigger: 'Phynet/ PNaaS',
-    text: ''
+    text: 'A tool that assists with logically configuring network devices on site to allow access and monitors connections to allow traffic across clusters.'
   },
   {
     trigger: 'GDCO',
@@ -67,7 +67,10 @@ const skills = [
     trigger: 'Javascript',
     text: 'An object-oriented computer programming language commonly used to create interactive effects within web browsers.'
   },
-
+  {
+    trigger: 'SQL',
+    text: 'A standard language for storing, manipulating and retrieving data in databases.'
+  },
 ];
 
 export default class Skills extends React.Component {
