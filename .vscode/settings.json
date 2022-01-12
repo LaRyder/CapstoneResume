@@ -1,4 +1,4 @@
 {
-    "appService.deploySubpath": ".",
-    "appService.defaultWebAppToDeploy": "/subscriptions/f0c89d0e-f4e2-4a76-b005-d23186141126/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/LaurenResume"
+  "appService.deploySubpath": ".",
+  "appService.defaultWebAppToDeploy": "/subscriptions/f0c89d0e-f4e2-4a76-b005-d23186141126/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/LaurenResume"
 }
