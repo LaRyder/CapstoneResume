@@ -20,11 +20,39 @@
   background-color: black;
   color: whitesmoke;
   display: block;
-  text-align: center;
   width: 100vw;
   height: 100vh;
   position: fixed;
   text-shadow: 8px 8px 8px black;
+}
+
+.row {
+  display: flex;
+}
+
+.sideBySide {
+  text-align: left;
+  padding: 20px;
+  width: 65vw;
+  margin-top: 35px;
+  margin-left: 80px;
+}
+
+.aside {
+  padding: 10px;
+  width: 15vw;
+}
+
+.proj1 {
+  width: 15vw;
+  margin: 10%;
+  border: solid;
+}
+
+.proj2 {
+  width: 15vw;
+  border: solid;
+  margin: 35px;
 }
 
 .matrix {
@@ -60,11 +88,11 @@ button.tTrainings,
 button.nTrainings {
   font-size: 60px;
   font-family: Brush Script MT, Brush Script Std, cursive;
-  margin: 40px;
-  margin-top: 6%;
   border-style: hidden;
   color: whitesmoke;
   text-shadow: 8px 8px 8px rgba(0, 128, 0, 0.637);
+  margin-left: 32%;
+  margin-bottom: 20%;
 }
 
 a {

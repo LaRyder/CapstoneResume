@@ -4,6 +4,14 @@ import "reactjs-popup/dist/index.css";
 
 const skills = [
   {
+    trigger: 'Problem Solving',
+    text: 'Defining a problem; determining the cause of the problem; identifying, prioritizing, and selecting alternatives for a solution; and implementing a solution.'
+  },
+  {
+    trigger: 'Verbal/Written Communication',
+    text: 'Language, each written and spoken'
+  },
+  {
     trigger: 'HP Server Hardware support',
     text: 'Perform basic diagnostics and troubleshooting by following standard procedures to identify the cause of issues and replace faulty components with minimal customer and business disruption.'
   },
@@ -26,14 +34,6 @@ const skills = [
   {
     trigger: 'Experience performing cable installations, hardware rack /stack installations, testing, and troubleshooting using standard datacenter processes.',
     text: 'Fiber, AOC, and copper cable intallations / Installing network device equipment in the production area / Actioning tasks to ensure equipment is functioning properly.'
-  },
-  {
-    trigger: 'Problem Solving',
-    text: 'Defining a problem; determining the cause of the problem; identifying, prioritizing, and selecting alternatives for a solution; and implementing a solution.'
-  },
-  {
-    trigger: 'Verbal/Written Communication',
-    text: 'Language, each written and spoken'
   },
   {
     trigger: 'Microsoft Office',
@@ -60,16 +60,16 @@ const skills = [
     text: 'Hypertext Markup Language, a standardized system for tagging text files to achieve font, color, graphic, and hyperlink effects on World Wide Web pages.'
   },
   {
+    trigger: 'SQL',
+    text: 'A standard language for storing, manipulating and retrieving data in databases.'
+  },
+  {
     trigger: 'C#',
     text: 'An object-oriented programming language created by Microsoft that runs on the .NET Framework.'
   },
   {
     trigger: 'Javascript',
     text: 'An object-oriented computer programming language commonly used to create interactive effects within web browsers.'
-  },
-  {
-    trigger: 'SQL',
-    text: 'A standard language for storing, manipulating and retrieving data in databases.'
   },
 ];
 
