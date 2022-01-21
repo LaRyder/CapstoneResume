@@ -1,13 +1,12 @@
 .navContainer {
   background-color: black;
-  padding: 10px;
   overflow-x: hidden;
 }
 
 .headerInner {
   padding-left: 18px;
   margin-left: 40%;
-  padding-top: 12px;
+  padding-top: 25px;
 }
 
 .navButton {
@@ -28,7 +27,7 @@
 
 .leftSide {
   position: absolute;
-  left: 20%;
+  left: 15%;
   text-transform: uppercase;
   letter-spacing: 0.1em;
 }
@@ -37,4 +36,11 @@
   text-transform: uppercase;
   letter-spacing: 0.1em;
   margin-left: 15%;
+}
+
+.time {
+  text-align: right;
+  font-size: x-small;
+  margin-right: 10px;
+  line-height: 2px;
 }

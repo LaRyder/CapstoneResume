@@ -7,6 +7,7 @@ import "reactjs-popup/dist/index.css";
 import TicTacToe from "../../Images/TicTacToe.png"
 import JSCalc from "../../Images/JSCalc.png"
 
+
 export default class LeapExperience extends React.Component {
     render () {
         return (
@@ -43,6 +44,7 @@ export default class LeapExperience extends React.Component {
                         <div class="text"><a href="https://www.linkedin.com/learning/react-building-styles-with-css-modules-9222678?u=3322">~ React: Building Styles with CSS Modules</a></div>
                         <div class="text"><a href="https://www.linkedin.com/learning/overcoming-imposter-syndrome?u=3322">~ Overcoming Imposter Syndrome</a></div>
                         <div class="text"><a href="https://www.linkedin.com/learning/c-sharp-essential-training-1-syntax-and-object-oriented-programming?u=3322">~ C# Essential Training: 1 Syntax and Object Oriented Programming</a></div>
+                        <div class="text"><a href="C:\Users\laryder\capstone-resume\src\pages\leapExperience\index.html">~ JSCalc</a></div>
                     </Popup>
                 </div>
             </div>

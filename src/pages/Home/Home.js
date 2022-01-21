@@ -8,6 +8,7 @@ import cert from "../../Images/CJIS.png";
 import coin from "../../Images/57730.png";
 import dply from "../../Images/dply.png";
 
+
 export default class Home extends React.Component {
     render () {
         return (

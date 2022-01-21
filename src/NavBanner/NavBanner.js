@@ -3,6 +3,9 @@ import {Link} from "react-router-dom";
 import "./NavBanner.css"
 
 export default class NavBanner extends React.Component {
+  state={
+    curTime : new Date().toLocaleString(),
+  }
   render () {
     return (
       <nav>
@@ -18,6 +21,7 @@ export default class NavBanner extends React.Component {
                 <Link class="navButton" to="Resume">Resume</Link>
                 <Link class="navButton" to="leapExperience">Leap Experience</Link>
               </div>
+              <div class= "time">{this.state.curTime }</div>
             </ul>
           </div>
         </div>
