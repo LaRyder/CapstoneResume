@@ -31,23 +31,23 @@ app.post('/send', (req, res) => {
       if (err) {
         res.status(500).send({
           success: false,
-          message: 'There was a problem completing your request. Please try again later'
+          message: 'Something went wrong. Try again later'
         });
       } else {
         res.send({
           success: true,
-          message: 'Thanks for contacting me. I will get back to you shortly'
+          message: 'Thanks for contacting us. We will get back to you shortly'
         });
       }
     });
   } catch (error) {
     res.status(500).send({
       success: false,
-      message: 'There was a problem completing your request. Please try again later'
+      message: 'Something went wrong. Try again later'
     });
   }
 });
 
-app.listen(3000, () => {
-  console.log('server start on port 3000');
+app.listen(3030, () => {
+  console.log('server start on port 3030');
 });
