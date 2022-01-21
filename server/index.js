@@ -31,19 +31,19 @@ app.post('/send', (req, res) => {
       if (err) {
         res.status(500).send({
           success: false,
-          message: 'Something went wrong. Try again later'
+          message: 'There was a problem completing your request. Please try again later'
         });
       } else {
         res.send({
           success: true,
-          message: 'Thanks for contacting us. We will get back to you shortly'
+          message: 'Thanks for contacting me. We will get back to you shortly'
         });
       }
     });
   } catch (error) {
     res.status(500).send({
       success: false,
-      message: 'Something went wrong. Try again later'
+      message: 'There was a problem completing your request. Please try again later'
     });
   }
 });
