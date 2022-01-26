@@ -3,7 +3,7 @@ import React from 'react';
 export default class Header extends React.Component {
     render (){
         return (
-            <div class="top">
+            <div className="top">
                 <h1 className='header'>Lauren Ryder Resume</h1>
                 <h2 className='quote'>“Choose a job you love, and you will never have to work a day in your life. ” — Confucius</h2>
                 <p>Deployment Technician / Leap Apprentice</p>

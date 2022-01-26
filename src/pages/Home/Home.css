@@ -1,5 +1,5 @@
 .resumePic {
-  background: url(/src/Images/Lryder.jpg) no-repeat;
+  background: url(../../Images/Lryder.jpg) no-repeat;
   background-position: center;
   position: fixed;
   background-size: cover;

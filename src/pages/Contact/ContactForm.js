@@ -1,100 +1,47 @@
-import React, { useState } from 'react';
-import axios from 'axios';
-import { Form, Button } from 'react-bootstrap';
+import React, { useState } from 'react'
+import emailjs from 'emailjs-com'
+import './Contact.css'
+import { init } from 'emailjs-com';
+init('user_oXBkuj6qOKvsyEwH5nctj');
 
 const ContactForm = () => {
-  const [state, setState] = useState({
-    name: '',
-    email: '',
-    subject: '',
-    message: ''
-  });
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
+  const [emailSent, setEmailSent] = useState(false);
 
-  const [result, setResult] = useState(null);
+const submit = () => {
+  if (name && email && message) {
+    const serviceId = 'service_9h1vb5a';
+    const templateId = 'template_rz58fq3';
+    const userId = 'user_oXBkuj6qOKvsyEwH5nctj';
+    const templateParams = {
+      name,
+      email,
+      message
+      };
 
-  const sendEmail = event => {
-    event.preventDefault();
-    axios
-      .post('/send', { ...state })
-      .then(response => {
-        setResult(response.data);
-        setState({
-          name: '',
-          email: '',
-          subject: '',
-          message: ''
-        });
-      })
-      .catch(() => {
-        setResult({
-          success: false,
-          message: 'There was a problem completing your request. Please try again later'
-        });
-      });
-  };
-
-  const onInputChange = event => {
-    const { name, value } = event.target;
-
-    setState({
-      ...state,
-      [name]: value
-    });
-  };
+    emailjs.send(serviceId, templateId, templateParams, userId)
+    .then(response => console.log(response))
+    .then(error => console.log(error));
+      setName('');
+      setEmail('');
+      setMessage('');
+      setEmailSent(true);
+    } else {
+      alert('Please fill in all fields.');
+    }
+  }
 
   return (
-    <div>
-      {result && (
-        <p className={`${result.success ? 'success' : 'error'}`}>
-          {result.message}
-        </p>
-      )}
-      <form onSubmit={sendEmail}>
-        <Form.Group controlId="name">
-          <Form.Label>Full Name</Form.Label>
-          <Form.Control
-            type="text"
-            name="name"
-            value={state.name}
-            placeholder="Enter your full name"
-            onChange={onInputChange}
-          />
-        </Form.Group>
-        <Form.Group controlId="email">
-          <Form.Label>Email</Form.Label>
-          <Form.Control
-            type="text"
-            name="email"
-            value={state.email}
-            placeholder="Enter your email"
-            onChange={onInputChange}
-          />
-        </Form.Group>
-        <Form.Group controlId="subject">
-          <Form.Label>Subject</Form.Label>
-          <Form.Control
-            type="text"
-            name="subject"
-            value={state.subject}
-            placeholder="Enter subject"
-            onChange={onInputChange}
-          />
-        </Form.Group>
-        <Form.Group controlId="subject">
-          <Form.Label>Message</Form.Label>
-          <Form.Control
-            as="textarea"
-            name="message"
-            value={state.message}
-            rows="3"
-            placeholder="Enter your message"
-            onChange={onInputChange}
-          />
-        </Form.Group>
-        <Button variant="primary" type="submit">
-          Submit
-        </Button>
-      </form>
+    <div className="contact-form">
+      <ul>
+        <li className="theLi"><input type="text" placeholder="Your Name" value={name} onChange={e => setName(e.target.value)} /></li>
+        <li className="theLi"><input type="email" placeholder="Your email address" value={email} onChange={e => setEmail(e.target.value)} /></li>
+        <li className="theLi"><textarea placeholder="Your message" value={message} onChange={e => setMessage(e.target.value)}></textarea></li>
+        <li className="theLi"><button className="theButton" onClick={submit}>Send Message</button></li>
+        <li className="theLi"><span className={emailSent ? 'visible' : null}>Thank you for your message, we will be in touch in no time!</span></li>
+      </ul>
     </div>
   );
 };

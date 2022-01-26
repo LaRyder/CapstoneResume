@@ -35,16 +35,16 @@ export default class LeapExperience extends React.Component {
                         </div>
                     </div>
                     <Popup trigger={<button className="tTrainings">Trainings & Resources</button>}>
-                        <div class="text"><a href="https://www.linkedin.com/learning/introduction-to-css?u=3322">~ Introduction to CSS</a></div>
-                        <div class="text"><a href="https://www.linkedin.com/learning/html-essential-training-4?u=3322">~ HTML Essential Training</a></div>
-                        <div class="text"><a href="https://www.linkedin.com/learning/learning-c-sharp-algorithms?u=3322">~ Learning C# Algorithms</a></div>
-                        <div class="text"><a href="https://www.linkedin.com/learning/learning-sql-programming-8382385?u=3322">~ Learning SQL Programming</a></div>
-                        <div class="text"><a href="https://www.linkedin.com/learning/building-web-apis-with-asp-dot-net-core-3?u=3322">~ Building Web APIs with ASP.NET Core</a></div>
-                        <div class="text"><a href="https://www.linkedin.com/learning/learning-the-javascript-language-2?u=3322">~ Learning the JavaScript Language</a></div>
-                        <div class="text"><a href="https://www.linkedin.com/learning/react-building-styles-with-css-modules-9222678?u=3322">~ React: Building Styles with CSS Modules</a></div>
-                        <div class="text"><a href="https://www.linkedin.com/learning/overcoming-imposter-syndrome?u=3322">~ Overcoming Imposter Syndrome</a></div>
-                        <div class="text"><a href="https://www.linkedin.com/learning/c-sharp-essential-training-1-syntax-and-object-oriented-programming?u=3322">~ C# Essential Training: 1 Syntax and Object Oriented Programming</a></div>
-                        <div class="text"><a href="C:\Users\laryder\capstone-resume\src\pages\leapExperience\index.html">~ JSCalc</a></div>
+                        <div className="text"><a href="https://www.linkedin.com/learning/introduction-to-css?u=3322">~ Introduction to CSS</a></div>
+                        <div className="text"><a href="https://www.linkedin.com/learning/html-essential-training-4?u=3322">~ HTML Essential Training</a></div>
+                        <div className="text"><a href="https://www.linkedin.com/learning/learning-c-sharp-algorithms?u=3322">~ Learning C# Algorithms</a></div>
+                        <div className="text"><a href="https://www.linkedin.com/learning/learning-sql-programming-8382385?u=3322">~ Learning SQL Programming</a></div>
+                        <div className="text"><a href="https://www.linkedin.com/learning/building-web-apis-with-asp-dot-net-core-3?u=3322">~ Building Web APIs with ASP.NET Core</a></div>
+                        <div className="text"><a href="https://www.linkedin.com/learning/learning-the-javascript-language-2?u=3322">~ Learning the JavaScript Language</a></div>
+                        <div className="text"><a href="https://www.linkedin.com/learning/react-building-styles-with-css-modules-9222678?u=3322">~ React: Building Styles with CSS Modules</a></div>
+                        <div className="text"><a href="https://www.linkedin.com/learning/overcoming-imposter-syndrome?u=3322">~ Overcoming Imposter Syndrome</a></div>
+                        <div className="text"><a href="https://www.linkedin.com/learning/c-sharp-essential-training-1-syntax-and-object-oriented-programming?u=3322">~ C# Essential Training: 1 Syntax and Object Oriented Programming</a></div>
+                        <div className="text"><a href="C:\Users\laryder\capstone-resume\src\pages\leapExperience\index.html">~ JSCalc</a></div>
                     </Popup>
                 </div>
             </div>

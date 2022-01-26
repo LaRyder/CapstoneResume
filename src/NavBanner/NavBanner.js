@@ -9,19 +9,19 @@ export default class NavBanner extends React.Component {
   render () {
     return (
       <nav>
-        <div class="navContainer">
-          <div class="headerInner">
+        <div className="navContainer">
+          <div className="headerInner">
             <ul>
-              <div class="leftSide">
-                <Link class="navButton" to="/">Lauren Ryder</Link>
-                <Link class="navButton" to="ContactMe">Contact Me</Link>
+              <div className="leftSide">
+                <Link className="navButton" to="/">Lauren Ryder</Link>
+                <Link className="navButton" to="ContactMe">Contact Me</Link>
               </div>
-              <div class="rightSide">
-                <Link class="navButton" to="About">About</Link>
-                <Link class="navButton" to="Resume">Resume</Link>
-                <Link class="navButton" to="leapExperience">Leap Experience</Link>
+              <div className="rightSide">
+                <Link className="navButton" to="About">About</Link>
+                <Link className="navButton" to="Resume">Resume</Link>
+                <Link className="navButton" to="leapExperience">Leap Experience</Link>
               </div>
-              <div class= "time">{this.state.curTime }</div>
+              <div className= "time">{this.state.curTime }</div>
             </ul>
           </div>
         </div>

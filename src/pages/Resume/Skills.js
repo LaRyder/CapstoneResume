@@ -76,8 +76,8 @@ const skills = [
 export default class Skills extends React.Component {
     render (){
         return (
-        <div class="row">
-          <div class= "sidebyside">
+        <div className="row">
+          <div className= "sidebyside">
             <h1 className='mHeader'><b><u>My Experience:</u></b></h1>
               <p><b><u>Microsoft Leap Internal Program July 2021 - Present</u></b></p>
                 <p><i>Leap Apprentice</i></p>
@@ -112,7 +112,7 @@ export default class Skills extends React.Component {
               return (
                 <li>
                   <Popup trigger={<button>{skill.trigger}</button>}>
-                    <div class="text">{skill.text}</div>
+                    <div className="text">{skill.text}</div>
                   </Popup>
                 </li>     
               );

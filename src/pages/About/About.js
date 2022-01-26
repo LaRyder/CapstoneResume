@@ -38,25 +38,25 @@ export default class About extends React.Component {
                 <div className="carousel">
                     {/* Carousel for pictures  */}
                     <AliceCarousel autoPlay autoPlayInterval="3000">
-                        <img src={pic1} alt="My family" class="center"/>
-                        <img src={pic2} alt="My family" class="center"/>
-                        <img src={pic3} alt="My family" class="center"/>
-                        <img src={pic4} alt="My family" class="center"/>
-                        <img src={pic5} alt="My family" class="center"/>
-                        <img src={pic6} alt="My family" class="center"/>
-                        <img src={pic7} alt="My family" class="center"/>
-                        <img src={pic8} alt="My family" class="center"/>
-                        <img src={pic9} alt="My family" class="center"/>
-                        <img src={pic10} alt="My family" class="center"/>
-                        <img src={pic11} alt="My family" class="center"/>
-                        <img src={pic12} alt="My family" class="center"/>
-                        <img src={pic13} alt="My family" class="center"/> 
-                        <img src={pic14} alt="My family" class="center"/>
-                        <img src={pic15} alt="My Family" class="centr"/>
-                        <img src={pic16} alt="My Family" class="center"/>
-                        <img src={pic17} alt="My Family" class="center"/>
-                        <img src={pic18} alt="My Family" class="center"/>
-                        <img src={pic19} alt="My Family" class="center"/>
+                        <img src={pic1} alt="My family" className="center"/>
+                        <img src={pic2} alt="My family" className="center"/>
+                        <img src={pic3} alt="My family" className="center"/>
+                        <img src={pic4} alt="My family" className="center"/>
+                        <img src={pic5} alt="My family" className="center"/>
+                        <img src={pic6} alt="My family" className="center"/>
+                        <img src={pic7} alt="My family" className="center"/>
+                        <img src={pic8} alt="My family" className="center"/>
+                        <img src={pic9} alt="My family" className="center"/>
+                        <img src={pic10} alt="My family" className="center"/>
+                        <img src={pic11} alt="My family" className="center"/>
+                        <img src={pic12} alt="My family" className="center"/>
+                        <img src={pic13} alt="My family" className="center"/> 
+                        <img src={pic14} alt="My family" className="center"/>
+                        <img src={pic15} alt="My Family" className="centr"/>
+                        <img src={pic16} alt="My Family" className="center"/>
+                        <img src={pic17} alt="My Family" className="center"/>
+                        <img src={pic18} alt="My Family" className="center"/>
+                        <img src={pic19} alt="My Family" className="center"/>
                     </AliceCarousel>
                 </div>
             </div>
